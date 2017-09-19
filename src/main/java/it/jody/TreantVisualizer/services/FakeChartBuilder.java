@@ -1,7 +1,11 @@
 package it.jody.TreantVisualizer.services;
 
 import com.google.gson.Gson;
-import it.jody.TreantVisualizer.domain.*;
+import it.jody.TreantVisualizer.domain.treant.ConfigurationChart;
+import it.jody.TreantVisualizer.domain.treant.chart.Chart;
+import it.jody.TreantVisualizer.domain.treant.chart.RootOrientation;
+import it.jody.TreantVisualizer.domain.treant.node.Node;
+import it.jody.TreantVisualizer.domain.treant.node.TextNode;
 import org.springframework.stereotype.Service;
 
 @Service

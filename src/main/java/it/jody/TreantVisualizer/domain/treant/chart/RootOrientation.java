@@ -1,4 +1,4 @@
-package it.jody.TreantVisualizer.domain;
+package it.jody.TreantVisualizer.domain.treant.chart;
 
 public enum RootOrientation {
     NORTH {

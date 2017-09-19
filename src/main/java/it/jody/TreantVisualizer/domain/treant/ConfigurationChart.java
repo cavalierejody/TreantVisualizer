@@ -1,4 +1,7 @@
-package it.jody.TreantVisualizer.domain;
+package it.jody.TreantVisualizer.domain.treant;
+
+import it.jody.TreantVisualizer.domain.treant.chart.Chart;
+import it.jody.TreantVisualizer.domain.treant.node.Node;
 
 public class ConfigurationChart {
 
