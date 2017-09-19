@@ -1,10 +1,7 @@
 package it.jody.TreantVisualizer.services;
 
 import com.google.gson.Gson;
-import it.jody.TreantVisualizer.domain.Chart;
-import it.jody.TreantVisualizer.domain.ConfigurationChart;
-import it.jody.TreantVisualizer.domain.Node;
-import it.jody.TreantVisualizer.domain.TextNode;
+import it.jody.TreantVisualizer.domain.*;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -13,6 +10,7 @@ public class FakeChartBuilder {
     public ConfigurationChart newFakeChart() {
 
         Chart chart = new Chart("#tree-simple");
+        chart.setRootOrientation(RootOrientation.NORTH);
 
         final Node root = Node.newRootNode("root");
         TextNode textNode = new TextNode();

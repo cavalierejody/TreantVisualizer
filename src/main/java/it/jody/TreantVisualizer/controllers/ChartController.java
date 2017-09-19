@@ -11,7 +11,7 @@ import java.util.Map;
 
 
 @Controller
-public class HelloController {
+public class ChartController {
 
     @Autowired
     FakeChartBuilder builder;

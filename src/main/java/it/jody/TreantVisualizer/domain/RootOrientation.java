@@ -1,5 +1,24 @@
 package it.jody.TreantVisualizer.domain;
 
 public enum RootOrientation {
-    NORTH, SOUTH, EAST, WEST
+    NORTH {
+        public String toString() {
+            return "NORTH";
+        }
+    },
+    SOUTH {
+        public String toString() {
+            return "SOUTH";
+        }
+    },
+    EAST {
+        public String toString() {
+            return "EAST";
+        }
+    },
+    WEST {
+        public String toString() {
+            return "WEST";
+        }
+    }
 }
